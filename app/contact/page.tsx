@@ -88,7 +88,7 @@ export default function ContactPage() {
           <div className="bg-[#0f0f0f] p-8 rounded-lg shadow-lg" data-aos="fade-left">
             <h2 className="text-2xl font-semibold text-[#dabe6d] mb-4">Our Contact Info</h2>
             <p className="text-gray-300 mb-4">
-              Reach out to us via phone, email, or visit our office. We're happy to answer your questions and discuss
+              Reach out to us via phone, email, or visit our office. We are happy to answer your questions and discuss
               your ideas.
             </p>
             <ul className="text-gray-300 space-y-4">

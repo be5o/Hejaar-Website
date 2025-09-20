@@ -82,7 +82,7 @@ export default function HomePage() {
             All services provided by HEJAAR are done so with quality and care. Our team of professionals are
             stick together over the years of working in the industry under different capacities. Our line of work is
             vast: Structural & Architectural Design, Interior & Decoration, Technical Office, Supplying, and
-            Electro-mechanical works. We're capable of developing any type of project to the desired state of the client.
+            Electro-mechanical works. We are capable of developing any type of project to the desired state of the client.
           </p>
         </div>
 
