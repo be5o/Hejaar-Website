@@ -1,24 +1,29 @@
 // app/layout.tsx
 import './globals.css';
-import { Inter } from 'next/font/google';
-import ClientWrapper from './components/ClientWrapper';
+import Navbar from '../app/components/Navbar';
+ // adjust if path differs
 
+ import Footer from '../app/components/footer'; // make sure the path is correct
 
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Hejaar Contracting',
   description: 'Build to Last',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <ClientWrapper>
-          {children}
-        </ClientWrapper>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
+
     </html>
   );
 }

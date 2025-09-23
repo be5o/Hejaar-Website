@@ -11,7 +11,7 @@ export default function ServicesPage() {
 
   return (
     <main className="bg-black text-white min-h-screen pt-20 px-6">
-      <section className="max-w-6xl mx-auto">
+      <section className="max-w-5xl mx-auto">
         <h1
           className="text-4xl md:text-5xl mb-12 text-[#dabe6d]"
           style={{ fontFamily: 'ImprintMTShadow' }}

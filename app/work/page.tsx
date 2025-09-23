@@ -38,30 +38,6 @@ export default function WorkWithUsPage() {
             />
           </div>
 
-          {/* Company Name */}
-          <div>
-            <label className="block mb-1 text-[#dabe6d]">Company Name</label>
-            <input
-              type="text"
-              name="entry.1440508953"
-              className="w-full px-4 py-2 bg-[#1a1a1a] border border-[#444] rounded-md text-white"
-            />
-          </div>
-
-          {/* Type of Project */}
-          <div>
-            <label className="block mb-1 text-[#dabe6d]">Type of Project *</label>
-            <select
-              name="entry.1784420581"
-              required
-              className="w-full px-4 py-2 bg-[#1a1a1a] border border-[#444] rounded-md text-white"
-            >
-              <option value="">-- Select --</option>
-              <option value="Finishing">Finishing</option>
-              <option value="Redesign">Redesign</option>
-            </select>
-          </div>
-
           {/* Project Category */}
           <div>
             <label className="block mb-1 text-[#dabe6d]">Project Category *</label>
@@ -78,17 +54,55 @@ export default function WorkWithUsPage() {
             </select>
           </div>
 
-          {/* If Commercial */}
+          {/* Company Name - Only for Commercial */}
           {category === 'Commercial' && (
             <div>
-              <label className="block mb-1 text-[#dabe6d]">Type of Commercial Project *</label>
+              <label className="block mb-1 text-[#dabe6d]">Company Name *</label>
               <input
                 type="text"
-                name="entry.2087749605"
+                name="entry.1440508953"
                 required
                 className="w-full px-4 py-2 bg-[#1a1a1a] border border-[#444] rounded-md text-white"
               />
             </div>
+          )}
+
+          {/* Type of Project */}
+          <div>
+            <label className="block mb-1 text-[#dabe6d]">Type of Project *</label>
+            <select
+              name="entry.1784420581"
+              required
+              className="w-full px-4 py-2 bg-[#1a1a1a] border border-[#444] rounded-md text-white"
+            >
+              <option value="">-- Select --</option>
+              <option value="Finishing">Finishing</option>
+              <option value="Redesign">Redesign</option>
+            </select>
+          </div>
+
+          {/* If Commercial */}
+          {category === 'Commercial' && (
+            <>
+              <div>
+                <label className="block mb-1 text-[#dabe6d]">Type of Commercial Project *</label>
+                <input
+                  type="text"
+                  name="entry.2087749605"
+                  required
+                  className="w-full px-4 py-2 bg-[#1a1a1a] border border-[#444] rounded-md text-white"
+                />
+              </div>
+              <div>
+                <label className="block mb-1 text-[#dabe6d]">Area (m²) *</label>
+                <input
+                  type="number"
+                  name="entry.2116250539"
+                  required
+                  className="w-full px-4 py-2 bg-[#1a1a1a] border border-[#444] rounded-md text-white"
+                />
+              </div>
+            </>
           )}
 
           {/* If Residential */}
@@ -106,7 +120,6 @@ export default function WorkWithUsPage() {
                   <option value="Apartment">Apartment</option>
                 </select>
               </div>
-
               <div>
                 <label className="block mb-1 text-[#dabe6d]">Area (m²) *</label>
                 <input
