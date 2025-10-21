@@ -33,9 +33,9 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-xl font-semibold text-[#dabe6d] mb-3">Contact</h3>
-          <p className="text-sm text-gray-400">📍 Cairo, Egypt</p>
-          <p className="text-sm text-gray-400">📞 +20 100 000 0000</p>
-          <p className="text-sm text-gray-400">✉️ info@hejaar.com</p>
+          <p className="text-sm text-gray-400">📍 Alandalous-90th street-New Cairo, Cairo, Egypt</p>
+          <p className="text-sm text-gray-400">📞 +201287777974</p>
+          <p className="text-sm text-gray-400">✉️ info@hejaar-contracting-eg.com</p>
         </div>
       </div>
 

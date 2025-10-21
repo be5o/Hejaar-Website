@@ -92,9 +92,9 @@ export default function ContactPage() {
               your ideas.
             </p>
             <ul className="text-gray-300 space-y-4">
-              <li><span className="text-[#dabe6d] font-medium">📍 Address:</span> Cairo, Egypt</li>
-              <li><span className="text-[#dabe6d] font-medium">📞 Phone:</span> +20 123 456 7890</li>
-              <li><span className="text-[#dabe6d] font-medium">📧 Email:</span> contact@hejaar.com</li>
+              <li><span className="text-[#dabe6d] font-medium">📍 Address:</span> Alandalous-90th street-New Cairo, Cairo, Egypt</li>
+              <li><span className="text-[#dabe6d] font-medium">📞 Phone:</span> +20 1287777974</li>
+              <li><span className="text-[#dabe6d] font-medium">📧 Email:</span> info@hejaar-contracting-eg.com</li>
             </ul>
 
             {/* Optional Map */}

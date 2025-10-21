@@ -32,23 +32,25 @@ export default function Navbar() {
 
   return (
     <header
-      className="sticky top-0 z-50 w-full px-6 py-4 border-b border-[#dabe6d] bg-black/80 backdrop-blur-md text-white"
-          /*bright yellow #facc15 */
+      className="sticky top-0 z-50 w-full px-8 py-4 border-b border-[#dabe6d] bg-black/80 backdrop-blur-md text-white"
       data-aos="fade-down"
       data-aos-duration="800"
     >
-      <nav className="flex justify-between items-center max-w-6xl mx-auto">
-        {/* Hejaar Logo Image */}
-        <Link href="/">
+      <nav className="flex justify-between items-center max-w-[1600px] mx-auto">
+        {/* Logo shifted left */}
+        <Link href="/" className="flex-shrink-0 mr-auto">
           <img
             src="/logo-navbar.png"
             alt="Hejaar Logo"
-            className="h-28 w-auto"
+            className="h-28 w-auto ml-[-10px]" // moves slightly left
           />
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-8" style={{ fontFamily: 'Times New Roman, serif' }}>
+        <ul
+          className="hidden md:flex gap-10 pr-4" // increased gap and added right padding
+          style={{ fontFamily: 'Times New Roman, serif' }}
+        >
           {navLinks.map((link) => (
             <li key={link.name}>
               <Link href={link.href} className={linkClasses(link.href)}>

@@ -26,7 +26,7 @@ export default function HomePage() {
       {/* HERO SECTION */}
      <section className="relative h-[85vh] w-full overflow-hidden">
 
-        {/* Background Video */}
+        {/*  {/* Background Video 
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
           src="/hero.mp4"
@@ -34,7 +34,9 @@ export default function HomePage() {
           loop
           muted
           playsInline
-        />
+        />    */}
+
+
 
         {/* Dimmed Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 z-10" />
