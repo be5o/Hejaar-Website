@@ -28,7 +28,7 @@ export default function ProjectsPage() {
   // 10 total images (5 per side)
   const sideImages = [
     "/proj1.png", "/proj2.png", "/proj3.png", "/proj4.jpg", "/proj5.jpg",
-    "/proj6.jpg", "/proj7.jpg", "/proj8.jpg", "/proj9.png", "/proj10.png",
+    "/proj6.jpg", "/proj7.jpg", "/proj8.jpg", "/proj9.png", "/proj10.jpg",
   ];
 
   const listRef = useRef<HTMLDivElement | null>(null);
@@ -65,7 +65,7 @@ useEffect(() => {
             <img
               key={`left-${index}`}
               src={src}
-              alt={`Hejaar Contracting finishing and contracting project in Cairo and Giza - تشطيب وتنفيذ هجار للمقاولات ${index + 1}`}
+              alt={`Hejaar Contracting finishing and contracting project in Cairo and Giza - تشطيب وتنفيذ حجار للمقاولات ${index + 1}`}
               className="rounded-lg object-cover w-52 flex-1 shadow-lg hover:scale-105 transition-transform duration-300"
               data-aos="fade-right"
               data-aos-delay={`${index * 100}`}
